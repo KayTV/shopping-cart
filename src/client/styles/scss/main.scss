@@ -1,9 +1,15 @@
+header {
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .navbar {
     margin-bottom: 0;
-    background-color: white;
+    background-color: rgba(254, 255, 252, 0.1);
     border: 0;
     font-size: 13px !important;
-    opacity:0.7;
+    // opacity:0.7;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -23,4 +29,12 @@
 
 .navbar-nav li.active a {
     color: #fff !important;
+}
+
+.productbox {
+  height: 400px;
+  border: 3px solid black;
+  padding: 5px;
+  margin: 40px;
+  border-radius: 20px;
 }
