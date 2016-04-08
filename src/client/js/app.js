@@ -5,5 +5,9 @@ angular.module('app', ['ngRoute'])
         templateUrl: 'home/home.html',
         controller: 'HomeController'
       })
+      .when('/products', {
+        templateUrl: 'products/products.html',
+        controller: 'ProductsController'
+      })
       .otherwise({redirectTo: '/'});
     });
